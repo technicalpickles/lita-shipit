@@ -23,7 +23,7 @@ module Lita
         response.reply SQUIRRELS.sample
       end
 
-      route(/ship\s*it/, :shipit, command: false, help: {
+      route(/ship\s*it/i, :shipit, command: false, help: {
         "ship it" => "Display a motivation squirrel"
       })
 
