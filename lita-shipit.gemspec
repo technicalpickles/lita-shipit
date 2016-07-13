@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-shipit"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Josh Nichols"]
   spec.email         = ["josh@technicalpickles.com"]
   spec.description   = %q{A lita handler that provides easy access to the shipit squirrel and its kin}
